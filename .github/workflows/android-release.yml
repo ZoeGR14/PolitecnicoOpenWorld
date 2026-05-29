@@ -63,9 +63,9 @@ jobs:
             Autor: @${{ env.PR_AUTHOR }}
             Commit: ${{ github.sha }}
 
-          make_latest: false
+          make_latest: true
           draft: false
-          prerelease: true
+          prerelease: false
 
           files: |
             PolitecnicoOpenWorld/app/build/outputs/apk/debug/app-debug.apk
