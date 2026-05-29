@@ -1,4 +1,4 @@
-# Politécnico Open World (POW) aña
+# Politécnico Open World (POW) añaasdf
 
 **Politécnico Open World (POW)** es una aplicación interactiva de exploración 2D con vista *top-down* para Android. El proyecto integra mapas del mundo real mediante OpenStreetMap (OSM) con un motor propio de renderizado para interiores, permitiendo la transición fluida entre exteriores y el interior de edificios, plazas y salones de clase.
 
