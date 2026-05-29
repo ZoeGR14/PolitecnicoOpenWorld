@@ -35,7 +35,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: wrapper
+          gradle-version: "9.4.1"
 
       - name: Create secrets.properties file
         run: |
@@ -43,9 +43,7 @@ jobs:
 
       - name: Build APK
         working-directory: ./PolitecnicoOpenWorld
-        run: |
-          chmod +x gradlew
-          ./gradlew :app:assembleDebug
+        run: gradle :app:assembleDebug
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
